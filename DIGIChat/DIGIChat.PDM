@@ -1,0 +1,181 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\yyy
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\XVOICE.DLL=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\mscomctl.ocx=
+C:\WINDOWS\SYSTEM\mswinsck.ocx=
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\WINDOWS\Desktop\CurrentRef\AllMyOwnWork\DIGIChat.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\XVOICE.DLL=Yes
+C:\WINDOWS\SYSTEM\mswinsck.ocx=Yes
+C:\WINDOWS\SYSTEM\mscomctl.ocx=Yes
+C:\WINDOWS\SYSTEM\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 1|Install Locations]
+C:\WINDOWS\Desktop\CurrentRef\AllMyOwnWork\DIGIChat.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\XVOICE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\mswinsck.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 1|DepFile]
+DepCabFile=DIGIChat.CAB
+DepCabRun=DIGIChat.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\WINDOWS\Desktop\yyy
+ProjectFolder=C:\WINDOWS\Desktop\CurrentRef\AllMyOwnWork
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\yyy\DIGIChat.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\XVOICE.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\mscomctl.ocx=
+C:\WINDOWS\SYSTEM\mswinsck.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\Desktop\CurrentRef\AllMyOwnWork\DIGIChat.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\XVOICE.DLL=Yes
+C:\WINDOWS\SYSTEM\mswinsck.ocx=Yes
+C:\WINDOWS\SYSTEM\mscomctl.ocx=Yes
+C:\WINDOWS\SYSTEM\richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\WINDOWS\Desktop\CurrentRef\AllMyOwnWork\DIGIChat.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\XVOICE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\mswinsck.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\CurrentRef\AllMyOwnWork\DIGIChat.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=DIGIChat
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=DIGIChat
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|DIGIChat]
+Icon1=DIGIChat.exe
+Title1=DIGIChat
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\WINDOWS\Desktop\Package
+ProjectFolder=C:\WINDOWS\Desktop\CurrentRef\AllMyOwnWork
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\Package\setup.exe
+File2=C:\WINDOWS\Desktop\Package\Setup.Lst
+File3=C:\WINDOWS\Desktop\Package\DIGIChat.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
